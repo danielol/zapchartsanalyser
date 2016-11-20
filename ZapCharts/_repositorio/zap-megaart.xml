@@ -1,0 +1,446 @@
+<?xml version="1.0"?><OWASPZAPReport version="2.5.0" generated="Thu, 3 Nov 2016 07:50:10">
+<site name="http://www.megaartjf.com.br" host="www.megaartjf.com.br" port="80" ssl="false"><alerts><alertitem>
+  <pluginid>10016</pluginid>
+  <alert>Web Browser XSS Protection Not Enabled</alert>
+  <name>Web Browser XSS Protection Not Enabled</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Web Browser XSS Protection is not enabled, or is disabled by the configuration of the &apos;X-XSS-Protection&apos; HTTP response header on the web server&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.megaartjf.com.br/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-admin/admin-ajax.php</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/xmlrpc.php</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/feed/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/comments/feed/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/reset.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/css/bootstrap-responsive.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/entypo-icon-font.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/video/style.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/css/bootstrap.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.background.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.isotope.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/isotope.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.carousel.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.ajaxportfolio.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/vario-transitions.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe.flare/themes/common.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe.flare/themes/default/skin.css?ver=1477833086</uri>
+  </instance>
+  </instances>
+  <count>107</count>
+  <solution>&lt;p&gt;Ensure that the web browser&apos;s XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to &apos;1&apos;.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser&apos;s XSS protection mechanism. The following values would attempt to enable it: &lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; mode=block&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; report=http://www.example.com/xss&lt;/p&gt;&lt;p&gt;The following values would disable it:&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 0&lt;/p&gt;&lt;p&gt;The X-XSS-Protection HTTP response header is currently supported on Internet Explorer, Chrome and Safari (WebKit).&lt;/p&gt;&lt;p&gt;Note that this alert is only raised if the response body could potentially contain an XSS payload (with a text-based content type, with a non-zero length).&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet&lt;/p&gt;&lt;p&gt;https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/&lt;/p&gt;</reference>
+  <cweid>933</cweid>
+  <wascid>14</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10021</pluginid>
+  <alert>X-Content-Type-Options Header Missing</alert>
+  <name>X-Content-Type-Options Header Missing</name>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &apos;nosniff&apos;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.megaartjf.com.br/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-admin/admin-ajax.php</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/xmlrpc.php</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/feed/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/comments/feed/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/reset.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/css/bootstrap-responsive.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/entypo-icon-font.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/video/style.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/css/bootstrap.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.background.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.isotope.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/isotope.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.carousel.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.ajaxportfolio.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/vario-transitions.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe.flare/themes/common.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe.flare/themes/default/skin.css?ver=1477833086</uri>
+  </instance>
+  </instances>
+  <count>104</count>
+  <solution>&lt;p&gt;Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &apos;nosniff&apos; for all web pages.&lt;/p&gt;&lt;p&gt;If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.&lt;/p&gt;&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;&lt;p&gt;https://www.owasp.org/index.php/List_of_useful_HTTP_headers&lt;/p&gt;</reference>
+  <cweid>16</cweid>
+  <wascid>15</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10020</pluginid>
+  <alert>X-Frame-Options Header Not Set</alert>
+  <name>X-Frame-Options Header Not Set</name>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;X-Frame-Options header is not included in the HTTP response to protect against &apos;ClickJacking&apos; attacks.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.megaartjf.com.br/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-admin/admin-ajax.php</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/xmlrpc.php</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/feed/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/comments/feed/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/reset.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/css/bootstrap-responsive.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/entypo-icon-font.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/video/style.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/css/bootstrap.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.background.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.isotope.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/isotope.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.carousel.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/jquery.boxclick.ajaxportfolio.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/vario-transitions.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe.flare/themes/common.css?ver=1477833086</uri>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe.flare/themes/default/skin.css?ver=1477833086</uri>
+  </instance>
+  </instances>
+  <count>107</count>
+  <solution>&lt;p&gt;Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it&apos;s set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it&apos;s part of a FRAMESET) then you&apos;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY.  ALLOW-FROM allows specific websites to frame the web page in supported web browsers).&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx&lt;/p&gt;</reference>
+  <cweid>16</cweid>
+  <wascid>15</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>40018</pluginid>
+  <alert>SQL Injection</alert>
+  <name>SQL Injection</name>
+  <riskcode>3</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>High (Medium)</riskdesc>
+  <desc>&lt;p&gt;SQL injection may be possible.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/css/unite-gallery.css?ver=4.6.1%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/css/unite-gallery.css?ver=4.6.1%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/slider/ug-theme-slider.js?ver=4.6.1%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/slider/ug-theme-slider.js?ver=4.6.1%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/js/unitegallery.min.js?ver=4.6.1%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/tiles/ug-theme-tiles.js?ver=4.6.1%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/tiles/ug-theme-tiles.js?ver=4.6.1%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/js/unitegallery.min.js?ver=4.6.1%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/entypo-icon-font.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/entypo-icon-font.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/slider_ui.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/slider_ui.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/slider_captions.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/slider_captions.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/slider_captions_style.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/slider_captions_style.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/menu.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/menu_style.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/menu.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/menu_style.css?ver=1477833086%27+AND+%271%27%3D%271%27+--+</uri>
+  <param>ver</param>
+  <attack>1477833086&apos; OR &apos;1&apos;=&apos;1&apos; -- </attack>
+  </instance>
+  </instances>
+  <count>182</count>
+  <solution>&lt;p&gt;Do not trust client side input, even if there is client side validation in place.  &lt;/p&gt;&lt;p&gt;In general, type check all data on the server side.&lt;/p&gt;&lt;p&gt;If the application uses JDBC, use PreparedStatement or CallableStatement, with parameters passed by &apos;?&apos;&lt;/p&gt;&lt;p&gt;If the application uses ASP, use ADO Command Objects with strong type checking and parameterized queries.&lt;/p&gt;&lt;p&gt;If database Stored Procedures can be used, use them.&lt;/p&gt;&lt;p&gt;Do *not* concatenate strings into queries in the stored procedure, or use &apos;exec&apos;, &apos;exec immediate&apos;, or equivalent functionality!&lt;/p&gt;&lt;p&gt;Do not create dynamic SQL queries using simple string concatenation.&lt;/p&gt;&lt;p&gt;Escape all data received from the client.&lt;/p&gt;&lt;p&gt;Apply a &apos;whitelist&apos; of allowed characters, or a &apos;blacklist&apos; of disallowed characters in user input.&lt;/p&gt;&lt;p&gt;Apply the principle of least privilege by using the least privileged database user possible.&lt;/p&gt;&lt;p&gt;In particular, avoid using the &apos;sa&apos; or &apos;db-owner&apos; database users. This does not eliminate SQL injection, but minimizes its impact.&lt;/p&gt;&lt;p&gt;Grant the minimum database access that is necessary for the application.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;The page results were successfully manipulated using the boolean conditions [4.6.1&apos; AND &apos;1&apos;=&apos;1&apos; -- ] and [4.6.1&apos; OR &apos;1&apos;=&apos;1&apos; -- ]&lt;/p&gt;&lt;p&gt;The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison&lt;/p&gt;&lt;p&gt;Data was NOT returned for the original parameter.&lt;/p&gt;&lt;p&gt;The vulnerability was detected by successfully retrieving more data than originally returned, by manipulating the parameter&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/Top_10_2010-A1&lt;/p&gt;&lt;p&gt;https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet&lt;/p&gt;</reference>
+  <cweid>89</cweid>
+  <wascid>19</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>0</pluginid>
+  <alert>Directory Browsing</alert>
+  <name>Directory Browsing</name>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;It is possible to view the directory listing.  Directory listing may reveal hidden scripts, include files , backup source files etc which can be accessed to read sensitive information.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/css/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/js/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/slider/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/tiles/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/css/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/css/video/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/admin/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/css/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/js/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe.flare/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  <instance>
+  <uri>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe.flare/themes/</uri>
+  <attack>Parent Directory</attack>
+  </instance>
+  </instances>
+  <count>30</count>
+  <solution>&lt;p&gt;Disable directory browsing.  If this is required, make sure the listed files does not induce risks.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://httpd.apache.org/docs/mod/core.html#options&lt;/p&gt;&lt;p&gt;http://alamo.satlug.org/pipermail/satlug/2002-February/000053.html&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</reference>
+  <cweid>548</cweid>
+  <wascid>48</wascid>
+</alertitem>
+</alerts></site></OWASPZAPReport>

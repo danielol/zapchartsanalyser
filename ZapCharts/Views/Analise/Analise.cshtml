@@ -1,0 +1,82 @@
+﻿@model ZapCharts.Views.ViewModel.Formulario.FormularioCadastroAnaliseViewModel
+@{
+    ViewBag.Title = "Analise";
+}
+@using (Html.BeginForm("ResultadoAnalise", "Analise", FormMethod.Post, new { enctype = "multipart/form-data", @id = "formulario_insercao_arquivo" }))
+{
+    @Html.HiddenFor(x => x.ValidarZap)
+    @Html.HiddenFor(x => x.ValidarIronwasp)
+    @Html.HiddenFor(x => x.ValidarGrabber)
+
+    
+    <div class="row">
+        @if (Model.ValidarZap)
+        {
+            <div class="col-md-12">
+                <div class="row">
+                    <h2>Zap 2.5.0</h2>
+                </div>
+                <div class="row">
+                    O OWASP Zed Attack Proxy (ZAP) é uma das ferramentas de segurança gratuitas mais populares do mundo e é mantido
+                     ativamente por centenas de voluntários internacionais. Ele pode ajudá-lo a encontrar automaticamente vulnerabilidades
+                     de segurança em seus aplicativos da Web enquanto estiver desenvolvendo e testando seus aplicativos.
+                    @Html.TextBoxFor(x => x.ArquivoFerramentaZap, new { @class = "form-control", type = "file", accept = ".xml" })
+                </div>
+                <hr class="hrDestaque" />
+            </div>
+        }
+        @if (Model.ValidarIronwasp)
+        {
+            <div class="col-md-12">
+                <div class="row">
+                    <h2>Ironwasp</h2>
+                </div>
+                <div class="row">
+                    O IronWASP (Iron Web Application Advanced Security Testing Platform) é uma ferramenta de código aberto para a realização de testes de vulnerabilidades em aplicações Web. 
+                    Projetado para ser personalizável de acordo com os scanners de segurança que usuários podem criar, alguém com conhecimento avançado com Python/Ruby seja capaz de 
+                    fazer pleno uso da plataforma, além de existir uma série de características da ferramenta simples o suficiente para ser usada por qualquer iniciante na área.
+                    @Html.TextBoxFor(x => x.ArquivoFerramentaIronwasp, new { @class = "form-control", type = "file", accept = ".html" })
+                </div>
+                <hr class="hrDestaque" />
+            </div>
+        }
+        @if (Model.ValidarGrabber)
+        {
+            <div class="col-md-12">
+                <div class="row">
+                    <h2>Grabber</h2>
+                </div>
+                <div class="row">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac eleifend risus. Morbi maximus, ex ut varius consectetur, erat tellus hendrerit odio, non ullamcorper ex enim a nulla. Ut auctor maximus turpis. Aenean ipsum massa, mollis nec molestie a, facilisis eleifend augue. Integer vel scelerisque est. Fusce at neque vitae neque varius consectetur. Donec in lectus vitae diam viverra laoreet id sit amet ante. Nam faucibus erat lorem, id lacinia lectus ullamcorper eget. Sed sit amet massa aliquet, volutpat ligula eget, aliquet dui. Sed vitae luctus odio. Proin eu massa finibus, sodales leo a, lacinia nibh. In sit amet sapien quis tellus congue tincidunt non ac eros.
+
+                    In turpis diam, tempor vel ligula at, venenatis sollicitudin ipsum. Donec velit enim, accumsan vitae finibus vitae, tempus non nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin sollicitudin augue sit amet lobortis aliquet. Duis euismod facilisis sem. Pellentesque rhoncus dolor at lacus euismod, vel semper metus viverra. Morbi maximus nunc non feugiat tristique. Nullam tempor turpis eget elit eleifend mollis a id purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla porttitor mauris vitae diam sodales finibus eget a diam. Aenean porta ligula nec urna tincidunt luctus. Cras fringilla ac magna sed fringilla. Quisque et metus sit amet odio ultricies blandit. Etiam tincidunt lobortis est vel placerat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    @Html.TextBoxFor(x => x.ArquivoFerramentaGrabber, new { @class = "form-control", type = "file", accept=".xml" })
+                </div>
+                <hr class="hrDestaque" />
+            </div>
+
+        }
+    </div>
+}
+    <div class="row">
+        <div class="row">
+            <div class="col-sm-5">
+            </div>
+            <div class="col-sm-1">
+                <a href='@Url.Action("index","analise")' class="btn btn-primary  btn-sm"><< Voltar</a>
+            </div>
+            <div class="col-sm-1">
+                <button class="btn btn-secondary btn-sm" onclick="limparFormulario()">Limpar Campos</button>
+            </div>
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-1">
+                <button class="btn btn-primary btn-sm" onclick="enviarFormulario()">Próximo >></button>
+                <div class="col-sm-4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="~/scripts/analise/analise/analise.js"></script>

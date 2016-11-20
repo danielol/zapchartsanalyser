@@ -1,0 +1,116 @@
+﻿@model ZapCharts.Views.ViewModel.Formulario.FormularioInsercaoArquivoViewModel
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+@using (Html.BeginForm("", "", FormMethod.Post, new { enctype = "multipart/form-data", @id = "formulario_insercao_arquivo" }))
+{
+    <div class="container painel-padrao">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"><h4>@Model.Titulo</h4></div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row" class="jumbotron">
+            <div class="col-md-4">@Html.LabelFor(x => x.Arquivo)</div>
+            <div class="col-md-4"><input type="file" id="Arquivo" name="Arquivo" accept=".xml"></div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><hr /></div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                @Html.CheckBoxFor(x => x.PasswordAutocomplete)
+                @Html.LabelFor(x => x.PasswordAutocomplete)
+            </div>
+            <div class="col-md-4">
+                @Html.CheckBoxFor(x => x.XContentTypeOptionsHeaderMissing)
+                @Html.LabelFor(x => x.XContentTypeOptionsHeaderMissing)
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                @Html.CheckBoxFor(x => x.Xss)
+                @Html.LabelFor(x => x.Xss)
+            </div>
+            <div class="col-md-4">
+                @Html.CheckBoxFor(x => x.WebBrowserXssProtetionNotEnabled)
+                @Html.LabelFor(x => x.WebBrowserXssProtetionNotEnabled)
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                @Html.CheckBoxFor(x => x.SqlInjection)
+                @Html.LabelFor(x => x.SqlInjection)
+            </div>
+            <div class="col-md-4">
+                @Html.CheckBoxFor(x => x.UrlOpen)
+                @Html.LabelFor(x => x.UrlOpen)
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                @Html.CheckBoxFor(x => x.ApplicationErrorDisclosure)
+                @Html.LabelFor(x => x.ApplicationErrorDisclosure)
+            </div>
+            <div class="col-md-4">
+                @Html.CheckBoxFor(x => x.XFrameOptionsHeaderNotSet)
+                @Html.LabelFor(x => x.XFrameOptionsHeaderNotSet)
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><hr /></div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <button id="btn_gerar_analise" type="button" class="btn btn-default btn-sm" disabled>Gerar Analises</button>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+    </div>
+}
+<div class="container" id="resultado_analise">
+    @if (Model.ApresetarResultados)
+    {
+        Html.RenderPartial("_graficoPizza", Model.GraficoPizza);
+    }
+</div>
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <button id="btn_nova_analise" type="button" class="btn btn-default btn-sm">Gerar Nova Analises</button>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+
+<script src="~/scripts/home/index/javascript.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        @if (Model.ApresetarResultados) {
+            @:toggleFormularioAnexo('formulario_insercao_arquivo');
+        }
+        @if (ViewData["Mensagem"] != null) {
+            @:MostrarMensagem("erro", "@ViewData["Mensagem"]");
+        }
+   });
+</script>

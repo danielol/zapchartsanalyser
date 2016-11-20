@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - ZapCharts</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @*Refactor - tem que colocar no bundle*@
+    @Scripts.Render("~/bundles/jquery")
+
+    @*css*@
+    <link href="~/content/padrao/padrao.css" rel="stylesheet" />
+
+</head>
+<body>
+    @*menu*@
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("ZapCharts", "Index", "Dashboard", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Dashboard", "Index", "Dashboard")</li>
+                    <li>@Html.ActionLink("Analise", "Index", "Analise")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    @*modal padrão*@
+    @{Html.RenderPartial("_ModalGrandePadrao"); }
+    <div class="container body-content">
+        <div class="painel-padrao">
+            @*mensagem para usuário*@
+            <div class="" role="alert" id="caixaMensagem" style="display: none">
+                <a href="#" class="close" data-dismiss="alert" aria-label="fechar" title="Fechar">×</a>
+                <strong id="mensagem"></strong>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="~/favicon.ico" alt="logo" />
+                    </div>
+                    <div class="col-md-8" style="padding: 3%">
+                        <h2>ZapCharts Web Analyzer</h2>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+
+                <hr class="hrDestaque" />
+                @*aqui renderiza outras views*@
+                @RenderBody()
+            </div>
+
+            @*rodapé*@
+
+        </div>
+        <footer>
+            <hr />
+            <p>&copy; @DateTime.Now.Year - ZapCharts Web Analyzer </p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+    @*Refactor - tem que colocar no bundle*@
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/scripts/highcharts-4.0.1/js/highcharts.js"></script>
+    <script src="~/scripts/helper/mensagemhelper.js"></script>
+
+
+</body>
+</html>
+

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapCharts.Web", "ZapCharts\ZapCharts.Web.csproj", "{203525BE-2857-47C4-A178-F52830A30B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapCharts.Data", "ZapCharts.Data\ZapCharts.Data.csproj", "{F07C6F62-0BC9-440A-9601-92B3E58AD93C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapCharts.Service", "ZapCharts.Service\ZapCharts.Service.csproj", "{82E6F284-2EC1-4AF9-A767-5B38795044E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapCharts.Util", "ZapCharts.Util\ZapCharts.Util.csproj", "{6CD2DDAD-E010-49D4-BA15-2362C9990BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapCharts.Model", "ZapCharts.Model\ZapCharts.Model.csproj", "{8D1C4245-A810-4236-9F55-AD7DCFDF1B22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203525BE-2857-47C4-A178-F52830A30B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203525BE-2857-47C4-A178-F52830A30B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203525BE-2857-47C4-A178-F52830A30B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203525BE-2857-47C4-A178-F52830A30B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07C6F62-0BC9-440A-9601-92B3E58AD93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07C6F62-0BC9-440A-9601-92B3E58AD93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07C6F62-0BC9-440A-9601-92B3E58AD93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07C6F62-0BC9-440A-9601-92B3E58AD93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E6F284-2EC1-4AF9-A767-5B38795044E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E6F284-2EC1-4AF9-A767-5B38795044E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E6F284-2EC1-4AF9-A767-5B38795044E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E6F284-2EC1-4AF9-A767-5B38795044E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD2DDAD-E010-49D4-BA15-2362C9990BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD2DDAD-E010-49D4-BA15-2362C9990BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD2DDAD-E010-49D4-BA15-2362C9990BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD2DDAD-E010-49D4-BA15-2362C9990BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1C4245-A810-4236-9F55-AD7DCFDF1B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1C4245-A810-4236-9F55-AD7DCFDF1B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1C4245-A810-4236-9F55-AD7DCFDF1B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1C4245-A810-4236-9F55-AD7DCFDF1B22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,205 @@
+﻿@model ZapCharts.Views.ViewModel.Listagem.DetalhesResultadoViewModel
+@{
+    ViewBag.Title = "ResultadoAnalise";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        @if(Model.DetalhesResultadoZapViewModel != null) {
+            <div class="row">
+                <h2>@Model.DetalhesResultadoZapViewModel.NomeFerramenta</h2>
+            </div>
+            <div class="row">
+                @{Html.RenderPartial("_graficoPizza",Model.DetalhesResultadoZapViewModel.GraficoPizza);}
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <button data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-success btn-sm" id="btnDetalhesZap">Detalhes</button>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div id="ConteudoDetalhesAnaliseZap" style="display: none; padding: 3%">
+
+                <div class="row"><b>Ferramenta </b>= @Model.DetalhesResultadoZapViewModel.NomeFerramenta</div>
+                <div class="row"><b>Sistema Analisado </b>= @Model.DetalhesResultadoZapViewModel.NomeSite</div>
+                <div class="row"><b>Porta de Teste </b>= @Model.DetalhesResultadoZapViewModel.portaSite</div>
+
+                @*<hr class="hrDestaque"/>*@
+                Outras Informações:
+                @*   <hr class="hrDestaque" />*@
+                <table class="table table-bordered">
+                    <thead background-color darkgrey;>
+                        <tr>
+                            <th>Código</th>
+                            <th>Descrição</th>
+                            <th>Outras Informações</th>
+                            <th>Possível Solução</th>
+                            <th>Qtd Ocorrências</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var alerta in Model.DetalhesResultadoZapViewModel.AlertasViewModel) {
+                            <tr>
+                                <td>
+                                    @alerta.codigoRisco;
+                                </td>
+                                <td>
+                                    @alerta.Descricao;
+                                </td>
+                                <td>
+                                    @alerta.OutraInformacao;
+                                </td>
+                                <td>
+                                    @alerta.Solucao;
+                                </td>
+                                <td>
+                                    @alerta.QtdOcorrencias;
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+                    }
+    </div>
+    <div class="col-md-4">
+        @if(Model.DetalhesResultadoIronwaspViewModel != null) {
+            <div class="row">
+                <h2>@Model.DetalhesResultadoIronwaspViewModel.NomeFerramenta</h2>
+            </div>
+            <div class="row">
+                @{Html.RenderPartial("_graficoPizza",Model.DetalhesResultadoIronwaspViewModel.GraficoPizza);}
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <button data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-success btn-sm" id="btnDetalhesIronwasp">Detalhe</button>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div id="ConteudoDetalhesAnaliseIronwasp" style="display: none; padding: 3%">
+
+                <div class="row"><b>Ferramenta </b>= @Model.DetalhesResultadoIronwaspViewModel.NomeFerramenta</div>
+                @*<div class="row"><b>Sistema Analisado </b>= @Model.DetalhesResultadoIronwaspViewModel.NomeSite</div>
+                    <div class="row"><b>Porta de Teste </b>= @Model.DetalhesResultadoIronwaspViewModel.portaSite</div>*@
+
+                @*<hr class="hrDestaque"/>*@
+                Outras Informações:
+                @*   <hr class="hrDestaque" />*@
+                <table class="table table-bordered">
+                    <thead background-color darkgrey;>
+                        <tr>
+                            <th>Nome do Alerta</th>
+                            <th>Descrição</th>
+                            <th>Gravidade</th>
+                            <th>Quantidade de Ocorrências</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var alerta in Model.DetalhesResultadoIronwaspViewModel.AlertasViewModel) {
+                            <tr>
+                                <td>
+                                    @alerta.NomeAlerta;
+                                </td>
+                                <td>
+                                    @alerta.DescricaoRisco;
+                                </td>
+                                <td>
+                                    @alerta.Gravidade;
+                                </td>
+                                <td>
+                                    @alerta.QtdOcorrencias;
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+                    }
+    </div>
+    <div class="col-md-4">
+        @if(Model.DetalhesResultadoGrabberViewModel != null) {
+            <div class="row">
+                <h2>@Model.DetalhesResultadoGrabberViewModel.NomeFerramenta</h2>
+            </div>
+            <div class="row">
+                @{Html.RenderPartial("_graficoPizza",Model.DetalhesResultadoGrabberViewModel.GraficoPizza);}
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <button data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-success btn-sm" id="btnDetalhesGrabber">Detalhes</button>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div id="ConteudoDetalhesAnaliseGrabber" style="display: none; padding: 3%">
+
+                <div class="row"><b>Ferramenta </b>= @Model.DetalhesResultadoGrabberViewModel.NomeFerramenta</div>
+                @*<div class="row"><b>Sistema Analisado </b>= @Model.DetalhesResultadoIronwaspViewModel.NomeSite</div>
+                    <div class="row"><b>Porta de Teste </b>= @Model.DetalhesResultadoIronwaspViewModel.portaSite</div>*@
+
+                @*<hr class="hrDestaque"/>*@
+                Outras Informações:
+                @*   <hr class="hrDestaque" />*@
+                <table class="table table-bordered">
+                    <thead background-color darkgrey;>
+                        <tr>
+                            <th>Nome do Alerta</th>
+                            <th>Quantidade de Ocorrências</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var alerta in Model.DetalhesResultadoGrabberViewModel.AlertasViewModel) {
+                            <tr>
+                                <td>
+                                    @alerta.NomeAlerta;
+                                </td>
+                                <td>
+                                    @alerta.QtdOcorrencias;
+                                </td>
+                                <td style="width: 10px">
+                                    <div>
+                                        @foreach(var url in alerta.Uris) {
+                                            <p>@url</p>
+                                        }
+                                    </div>
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+                    }
+    </div>
+</div>
+<hr class="hrDestaque" />
+<div class="row">
+    <div class="row">
+        <div class="col-sm-5">
+        </div>
+        <div class="col-sm-1">
+            <a href='@Url.Action("index","analise")' class="btn btn-primary  btn-sm"><< Voltar</a>
+        </div>
+        <div class="col-sm-1">
+            <a href:"javascript: void(0)" id="btnExportarPdf" class="btn btn-danger btn-sm"> Exportar PDF</a>
+        </div>
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-1">
+            <a href='@Url.Action("index","analise")' class="btn btn-default  btn-sm">Nova Analise</a>
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+</div>
+@using(Html.BeginForm("GeraPDF","Exportacao",FormMethod.Post,new { @id = "formularioExportarPdf" })) {
+    @Html.Hidden("conteudoPdf");
+}
+
+<script src="~/scripts/analise/resultadoanalise/resultadoanalise.js"></script>
+

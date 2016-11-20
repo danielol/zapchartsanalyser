@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.painel-padrao {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin: 3% 3% 3% 3%;
+    padding: 1.5%;
+}
+
+h2 {
+    display: initial;
+}
+
+.hrDestaque {
+    border: 1px solid;
+    background-color: #332e2e;
+}
+.caixaDestaque{
+        border: 1px solid;
+        padding: 2%;
+}
+
+.caixaBotoes{
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
